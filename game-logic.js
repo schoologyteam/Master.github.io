@@ -3,7 +3,7 @@ var score;
 var trialsLeft;
 var step;
 var action;
-var fruits = ['apple'];
+var fruits = ['apple', 'banana', 'cherries', 'grapes', 'mango', 'orange'];
 $(function(){
        
     $("#startreset").click(function(){
@@ -76,7 +76,7 @@ $(function(){
 
 
 function chooseFruit(){
-    $("#fruit1").attr('src' , 'images/tester.png');   
+    $("#fruit1").attr('src' , 'images/' + fruits[Math.round(5*Math.random())] +'.png');  
 }
 
 function stopAction(){
