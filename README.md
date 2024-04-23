@@ -1,1 +1,1 @@
-# drawing-app
+# slice-master-game
